@@ -21,7 +21,6 @@ public class testRev2_1 {
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
-		int[] num = new int[T];
 		
 		for(int i=0; i<T; i++) {
 			int A = sc.nextInt();

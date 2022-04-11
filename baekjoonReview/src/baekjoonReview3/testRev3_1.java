@@ -18,11 +18,14 @@ public class testRev3_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
 		int n = sc.nextInt();
 		int sum = 0;
 		
 		for(int i=1; i<=n; i++) {
-			sum += i;
+			sum +=i;
+			//+= 왼쪽 변수에 더하면서 대입
+			//num = num + i 와 같은 뜻
 		}
 		System.out.println(sum);
 	}
